@@ -1,0 +1,13 @@
+{
+  "name": "Raise Your Hands",
+  "description": "Raise Your Hands",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["ENTRY_POINT_FILE_NAME"]
+    }
+  ],
+  "permissions": []
+}
